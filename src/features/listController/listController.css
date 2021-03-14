@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+}
+
+.list-controller {
+  width: 60vw;
+  padding: 20px;
+  height: 150px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.item {
+  flex: 1;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.item .item-header {
+  margin-bottom: 10px;
+}
+.item .item-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.item .item-content.item-content--row {
+  flex-direction: row;
+}
+.item .item-content .icon {
+  width: 30px;
+  height: 30px;
+}
+.item .item-content .icon.gold {
+  color: gold;
+}
+.item--block {
+  display: block;
+}
+
+/*# sourceMappingURL=listController.css.map */
